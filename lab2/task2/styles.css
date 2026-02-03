@@ -103,6 +103,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-left: 10px;
+    margin-right: -150px;
 }
 
 .login-header {
