@@ -224,6 +224,10 @@ details[open] summary::before {
     font-weight: 600;
 }
 
+.footer{
+    margin-top: 20px;
+}
+
 @media (max-width: 900px) {
     .cards {
         grid-template-columns: 1fr;
