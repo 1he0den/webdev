@@ -1,0 +1,37 @@
+<div class="card">
+  <div class="card__media">
+    <a [href]="product.link" target="_blank">
+      <img class="card__main-image" [src]="selectedImage" [alt]="product.name" />
+    </a>
+    <div class="card__thumbnails">
+      @for (image of product.images; track image) {
+        <img
+          [src]="image"
+          [alt]="product.name"
+          [class.active]="image === selectedImage"
+          (click)="setImage(image)"
+        />
+      }
+    </div>
+  </div>
+
+  <div class="card__info">
+    <h3 class="card__name">{{ product.name }}</h3>
+    <p class="card__description">{{ product.description }}</p>
+
+    <div class="card__rating">
+      @for (star of getStars(); track $index) {
+        <span class="star" [class.filled]="star.filled">&#9733;</span>
+      }
+      <span class="card__rating-value">{{ product.rating }}</span>
+    </div>
+
+    <p class="card__price">{{ product.price | number }} ₸</p>
+
+    <div class="card__actions">
+      <a class="btn btn--buy" [href]="product.link" target="_blank">Купить</a>
+      <button class="btn btn--wa" (click)="shareWhatsApp()">WhatsApp</button>
+      <button class="btn btn--tg" (click)="shareTelegram()">Telegram</button>
+    </div>
+  </div>
+</div>

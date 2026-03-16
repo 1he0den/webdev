@@ -1,0 +1,16 @@
+<nav class="category-nav">
+  <button 
+    class="category-btn" 
+    [class.active]="selectedCategoryId === null"
+    (click)="selectCategory(null)">
+    All Products
+  </button>
+  @for (category of categories(); track category.id) {
+    <button 
+      class="category-btn" 
+      [class.active]="selectedCategoryId === category.id"
+      (click)="selectCategory(category.id)">
+      {{ category.name }}
+    </button>
+  }
+</nav>
