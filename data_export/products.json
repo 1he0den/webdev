@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14",
+    "price": 999.99,
+    "description": "Latest Apple smartphone",
+    "count": 10,
+    "is_active": true,
+    "category_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "price": 899.99,
+    "description": "Flagship Samsung phone",
+    "count": 15,
+    "is_active": true,
+    "category_id": 1
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air M2",
+    "price": 1199.99,
+    "description": "Lightweight Apple laptop",
+    "count": 5,
+    "is_active": true,
+    "category_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Sony Headphones",
+    "price": 199.99,
+    "description": "Noise cancelling headphones",
+    "count": 20,
+    "is_active": true,
+    "category_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch",
+    "price": 149.99,
+    "description": "Fitness tracking smartwatch",
+    "count": 25,
+    "is_active": true,
+    "category_id": 1
+  },
+  {
+    "id": 6,
+    "name": "T-Shirt",
+    "price": 19.99,
+    "description": "Cotton casual t-shirt",
+    "count": 50,
+    "is_active": true,
+    "category_id": 2
+  },
+  {
+    "id": 7,
+    "name": "Jeans",
+    "price": 49.99,
+    "description": "Blue denim jeans",
+    "count": 40,
+    "is_active": true,
+    "category_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Jacket",
+    "price": 89.99,
+    "description": "Warm winter jacket",
+    "count": 20,
+    "is_active": true,
+    "category_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Sneakers",
+    "price": 69.99,
+    "description": "Comfortable running shoes",
+    "count": 30,
+    "is_active": true,
+    "category_id": 2
+  },
+  {
+    "id": 10,
+    "name": "Cap",
+    "price": 14.99,
+    "description": "Stylish baseball cap",
+    "count": 60,
+    "is_active": true,
+    "category_id": 2
+  },
+  {
+    "id": 11,
+    "name": "Blender",
+    "price": 59.99,
+    "description": "Kitchen blender",
+    "count": 15,
+    "is_active": true,
+    "category_id": 3
+  },
+  {
+    "id": 12,
+    "name": "Microwave Oven",
+    "price": 120.0,
+    "description": "Compact microwave oven",
+    "count": 10,
+    "is_active": true,
+    "category_id": 3
+  },
+  {
+    "id": 13,
+    "name": "Vacuum Cleaner",
+    "price": 150.0,
+    "description": "Powerful vacuum cleaner",
+    "count": 8,
+    "is_active": true,
+    "category_id": 3
+  },
+  {
+    "id": 14,
+    "name": "Cookware Set",
+    "price": 80.0,
+    "description": "Non-stick cookware set",
+    "count": 12,
+    "is_active": true,
+    "category_id": 3
+  },
+  {
+    "id": 15,
+    "name": "Desk Lamp",
+    "price": 25.0,
+    "description": "LED desk lamp",
+    "count": 25,
+    "is_active": true,
+    "category_id": 3
+  },
+  {
+    "id": 16,
+    "name": "Football",
+    "price": 29.99,
+    "description": "Professional football",
+    "count": 30,
+    "is_active": true,
+    "category_id": 4
+  },
+  {
+    "id": 17,
+    "name": "Basketball",
+    "price": 27.99,
+    "description": "Indoor/outdoor basketball",
+    "count": 25,
+    "is_active": true,
+    "category_id": 4
+  },
+  {
+    "id": 18,
+    "name": "Tennis Racket",
+    "price": 89.99,
+    "description": "Lightweight tennis racket",
+    "count": 10,
+    "is_active": true,
+    "category_id": 4
+  },
+  {
+    "id": 19,
+    "name": "Yoga Mat",
+    "price": 19.99,
+    "description": "Non-slip yoga mat",
+    "count": 35,
+    "is_active": true,
+    "category_id": 4
+  },
+  {
+    "id": 20,
+    "name": "Dumbbells Set",
+    "price": 49.99,
+    "description": "Adjustable dumbbells",
+    "count": 20,
+    "is_active": true,
+    "category_id": 4
+  }
+]
